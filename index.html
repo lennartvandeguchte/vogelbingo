@@ -11,213 +11,57 @@
     --ink: #1f2d2b;
     --accent: #3f7d5e;
     --accent-dark: #2c5c44;
-    --marked: #f4b942;
     --border: #d8e6df;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
+    min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: linear-gradient(180deg, #d7ecf0 0%, var(--sky) 260px, var(--sky) 100%);
     color: var(--ink);
-    min-height: 100vh;
-  }
-  header {
-    text-align: center;
-    padding: 40px 20px 20px;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2.4rem;
-    color: var(--accent-dark);
-  }
-  header p {
-    margin: 8px 0 0;
-    color: #4a5a55;
-  }
-  main {
-    max-width: 620px;
-    margin: 0 auto;
-    padding: 0 16px 60px;
-  }
-  .toolbar {
     display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 24px;
-    flex-wrap: wrap;
-  }
-  button {
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: background 0.15s ease;
-  }
-  button:hover { background: var(--accent-dark); }
-  button.secondary {
-    background: white;
-    color: var(--accent-dark);
-    border: 1px solid var(--border);
-  }
-  button.secondary:hover { background: #f0f6f2; }
-
-  .bingo-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 6px;
-    background: var(--card);
-    padding: 10px;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(30, 60, 50, 0.08);
-  }
-  .cell {
-    aspect-ratio: 1 / 1;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background: #f7faf8;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 6px;
-    font-size: 0.78rem;
-    line-height: 1.15;
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.15s ease, transform 0.1s ease;
+    padding: 40px 16px;
   }
-  .cell:hover { transform: translateY(-1px); }
-  .cell .emoji {
-    display: block;
-    font-size: 1.5rem;
-    margin-bottom: 2px;
-  }
-  .cell.marked {
-    background: var(--marked);
-    border-color: #d99f2b;
-    color: #4a3300;
-  }
-  .cell.free {
-    background: var(--accent);
-    color: white;
-    font-weight: 600;
-  }
-  .cell.bingo {
-    outline: 3px solid var(--accent-dark);
-    outline-offset: -3px;
-  }
-
-  .status {
-    text-align: center;
-    margin-top: 20px;
-    min-height: 1.4em;
-    font-weight: 600;
+  h1 {
+    margin: 0 0 6px;
+    font-size: 2.2rem;
     color: var(--accent-dark);
   }
+  .wip {
+    display: inline-block;
+    margin-bottom: 24px;
+    padding: 8px 18px;
+    background: #fff3d6;
+    border: 1px solid #f0cf7a;
+    color: #7a5a10;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  video {
+    max-width: 100%;
+    width: 560px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(30, 60, 50, 0.15);
+    background: #000;
+  }
   footer {
-    text-align: center;
-    padding: 24px;
+    margin-top: 24px;
     font-size: 0.8rem;
     color: #7c8a85;
   }
 </style>
 </head>
 <body>
-  <header>
-    <h1>🐦 Vogelbingo</h1>
-    <p>Spot de vogels in je tuin of tijdens je wandeling — streep ze weg!</p>
-  </header>
+  <h1>🐦 Vogelbingo</h1>
+  <p class="wip">🚧 Werk in uitvoering 🚧</p>
 
-  <main>
-    <div class="toolbar">
-      <button id="newCard">Nieuwe kaart</button>
-      <button id="reset" class="secondary">Wis kruisjes</button>
-    </div>
+  <video src="bingomolen.mp4" controls autoplay loop muted playsinline></video>
 
-    <div class="bingo-grid" id="grid"></div>
-
-    <div class="status" id="status"></div>
-  </main>
-
-  <footer>
-    Voorbeeldsite voor vogelbingo.nl — gemaakt als startpunt.
-  </footer>
-
-<script>
-const BIRDS = [
-  ["🐦", "Huismus"], ["🐧", "Kauw"], ["🦆", "Wilde eend"], ["🦢", "Knobbelzwaan"],
-  ["🦉", "Steenuil"], ["🦅", "Buizerd"], ["🐤", "Pimpelmees"], ["🕊️", "Houtduif"],
-  ["🦩", "Flamingo"], ["🦜", "Parkiet"], ["🐔", "Fazant"], ["🦃", "Ooievaar"],
-  ["🦚", "Pauw"], ["🦤", "Dodo (grap!)"], ["🐣", "Merel"], ["🦇", "Gierzwaluw"],
-  ["🦔", "Roodborstje"], ["🐦‍⬛", "Zwarte kraai"], ["🦭", "Aalscholver"], ["🐥", "Koolmees"],
-  ["🦆", "Meerkoet"], ["🕊️", "Turkse tortel"], ["🐧", "Waterhoen"], ["🦅", "Sperwer"]
-];
-
-const grid = document.getElementById("grid");
-const statusEl = document.getElementById("status");
-let cells = [];
-
-function shuffled(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function buildCard() {
-  grid.innerHTML = "";
-  cells = [];
-  const chosen = shuffled(BIRDS).slice(0, 24);
-  chosen.splice(12, 0, ["★", "GRATIS"]); // center free space
-
-  chosen.forEach((bird, i) => {
-    const cell = document.createElement("div");
-    cell.className = "cell";
-    if (i === 12) cell.classList.add("free", "marked");
-    cell.innerHTML = `<span class="emoji">${bird[0]}</span>${bird[1]}`;
-    cell.addEventListener("click", () => {
-      if (i === 12) return;
-      cell.classList.toggle("marked");
-      checkBingo();
-    });
-    grid.appendChild(cell);
-    cells.push(cell);
-  });
-  statusEl.textContent = "";
-  checkBingo();
-}
-
-function checkBingo() {
-  cells.forEach(c => c.classList.remove("bingo"));
-  const marked = i => cells[i].classList.contains("marked");
-  const lines = [];
-  for (let r = 0; r < 5; r++) lines.push([0,1,2,3,4].map(c => r*5+c));
-  for (let c = 0; c < 5; c++) lines.push([0,1,2,3,4].map(r => r*5+c));
-  lines.push([0,6,12,18,24]);
-  lines.push([4,8,12,16,20]);
-
-  const winningLine = lines.find(line => line.every(marked));
-  if (winningLine) {
-    winningLine.forEach(i => cells[i].classList.add("bingo"));
-    statusEl.textContent = "🎉 Bingo!";
-  } else {
-    statusEl.textContent = "";
-  }
-}
-
-document.getElementById("newCard").addEventListener("click", buildCard);
-document.getElementById("reset").addEventListener("click", () => {
-  cells.forEach((c, i) => { if (i !== 12) c.classList.remove("marked"); });
-  checkBingo();
-});
-
-buildCard();
-</script>
+  <footer>vogelbingo.nl</footer>
 </body>
 </html>
