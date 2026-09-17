@@ -1,0 +1,48 @@
+/* A4 portrait: 5 x 5 cells of 34 mm inside 20 mm margins. */
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+@media print {
+  html, body {
+    background: #fff !important;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .no-print { display: none !important; }
+  #output { display: block; }
+  .card {
+    box-shadow: none;
+    border: none;
+    background: #fff;
+    border-radius: 0;
+    width: 176mm;
+    margin: 0 auto;
+    padding: 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .card-title { font-size: 26pt; }
+  .card-sub { font-size: 12pt; }
+  .grid {
+    width: 172mm;
+    gap: 1.5mm;
+  }
+  .cell {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 0.4pt solid #333;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .cell .name { font-size: 9.5pt; }
+  .cell .sci { font-size: 6.5pt; color: #333; }
+  .cell--noimage::before { border-color: #333; }
+  .free-mark { color: #000; }
+  .card-foot { font-size: 7pt; }
+  .card + .card { page-break-before: always; break-before: page; }
+  .caller-sheet { page-break-before: always; break-before: page; }
+}

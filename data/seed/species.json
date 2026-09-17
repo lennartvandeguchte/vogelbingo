@@ -1,0 +1,2305 @@
+{
+ "_provenance": "STOPGAP. Expert-set monthly abundance (0-10) and habitat affinity (0-1) per species, used only by `build-dataset.mjs --source seed`. Not observation data. Replaced by the GBIF occurrence download when the build runs with --source gbif-csv.",
+ "species": {
+  "Turdus merula": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.7,
+    "water": 0.3,
+    "kust": 0.5,
+    "bos": 0.9
+   }
+  },
+  "Parus major": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.7,
+    "water": 0.2,
+    "kust": 0.4,
+    "bos": 1.0
+   }
+  },
+  "Cyanistes caeruleus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.9,
+    "platteland": 0.6,
+    "water": 0.2,
+    "kust": 0.4,
+    "bos": 0.9
+   }
+  },
+  "Columba palumbus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.9,
+    "water": 0.3,
+    "kust": 0.4,
+    "bos": 0.9
+   }
+  },
+  "Corvus monedula": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.8,
+    "water": 0.2,
+    "kust": 0.4,
+    "bos": 0.3
+   }
+  },
+  "Corvus corone": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.9,
+    "platteland": 1.0,
+    "water": 0.4,
+    "kust": 0.6,
+    "bos": 0.7
+   }
+  },
+  "Pica pica": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.8,
+    "water": 0.2,
+    "kust": 0.3,
+    "bos": 0.4
+   }
+  },
+  "Anas platyrhynchos": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.6,
+    "water": 1.0,
+    "kust": 0.6,
+    "bos": 0.3
+   }
+  },
+  "Fulica atra": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.5,
+    "water": 1.0,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Gallinula chloropus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.5,
+    "water": 0.9,
+    "kust": 0.2,
+    "bos": 0.2
+   }
+  },
+  "Ardea cinerea": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.7,
+    "water": 1.0,
+    "kust": 0.5,
+    "bos": 0.3
+   }
+  },
+  "Cygnus olor": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.6,
+    "water": 1.0,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Chroicocephalus ridibundus": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.9,
+    "platteland": 0.7,
+    "water": 0.9,
+    "kust": 1.0,
+    "bos": 0.1
+   }
+  },
+  "Larus argentatus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.3,
+    "water": 0.5,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Erithacus rubecula": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.5,
+    "water": 0.2,
+    "kust": 0.5,
+    "bos": 1.0
+   }
+  },
+  "Troglodytes troglodytes": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.6,
+    "water": 0.4,
+    "kust": 0.6,
+    "bos": 1.0
+   }
+  },
+  "Prunella modularis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.6,
+    "water": 0.2,
+    "kust": 0.5,
+    "bos": 0.7
+   }
+  },
+  "Passer domesticus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.9,
+    "water": 0.1,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Sturnus vulgaris": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 1.0,
+    "water": 0.4,
+    "kust": 0.6,
+    "bos": 0.3
+   }
+  },
+  "Fringilla coelebs": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.7,
+    "water": 0.1,
+    "kust": 0.4,
+    "bos": 1.0
+   }
+  },
+  "Chloris chloris": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.7,
+    "water": 0.1,
+    "kust": 0.5,
+    "bos": 0.4
+   }
+  },
+  "Carduelis carduelis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.7,
+    "water": 0.3,
+    "kust": 0.5,
+    "bos": 0.3
+   }
+  },
+  "Streptopelia decaocto": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.8,
+    "water": 0.1,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Dendrocopos major": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.4,
+    "water": 0.1,
+    "kust": 0.2,
+    "bos": 1.0
+   }
+  },
+  "Sitta europaea": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.2,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 1.0
+   }
+  },
+  "Certhia brachydactyla": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.1,
+    "bos": 0.9
+   }
+  },
+  "Garrulus glandarius": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.4,
+    "water": 0.1,
+    "kust": 0.2,
+    "bos": 1.0
+   }
+  },
+  "Psittacula krameri": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.9,
+    "platteland": 0.1,
+    "water": 0.1,
+    "kust": 0.1,
+    "bos": 0.2
+   }
+  },
+  "Alopochen aegyptiaca": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.8,
+    "water": 0.9,
+    "kust": 0.4,
+    "bos": 0.2
+   }
+  },
+  "Anser anser": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.8,
+    "water": 1.0,
+    "kust": 0.6,
+    "bos": 0.1
+   }
+  },
+  "Branta canadensis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.7,
+    "water": 0.9,
+    "kust": 0.3,
+    "bos": 0.1
+   }
+  },
+  "Branta leucopsis": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.7,
+    "water": 0.7,
+    "kust": 0.9,
+    "bos": 0.0
+   }
+  },
+  "Anser albifrons": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 1.0,
+    "water": 0.6,
+    "kust": 0.5,
+    "bos": 0.0
+   }
+  },
+  "Phalacrocorax carbo": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.3,
+    "water": 1.0,
+    "kust": 0.8,
+    "bos": 0.1
+   }
+  },
+  "Podiceps cristatus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 1.0,
+    "kust": 0.4,
+    "bos": 0.0
+   }
+  },
+  "Aythya fuligula": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 1.0,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Mareca strepera": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 1.0,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Mareca penelope": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.6,
+    "water": 1.0,
+    "kust": 0.6,
+    "bos": 0.0
+   }
+  },
+  "Anas crecca": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.3,
+    "water": 0.9,
+    "kust": 0.5,
+    "bos": 0.1
+   }
+  },
+  "Spatula clypeata": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.4,
+    "water": 0.9,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Tadorna tadorna": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.3,
+    "water": 0.5,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Haematopus ostralegus": {
+   "months": [
+    2,
+    2,
+    6,
+    10,
+    10,
+    9,
+    7,
+    3,
+    1,
+    1,
+    1,
+    2
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.7,
+    "water": 0.4,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Vanellus vanellus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 1.0,
+    "water": 0.4,
+    "kust": 0.5,
+    "bos": 0.0
+   }
+  },
+  "Limosa limosa": {
+   "months": [
+    2,
+    2,
+    6,
+    10,
+    10,
+    9,
+    7,
+    3,
+    1,
+    1,
+    1,
+    2
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 1.0,
+    "water": 0.5,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Tringa totanus": {
+   "months": [
+    2,
+    2,
+    6,
+    10,
+    10,
+    9,
+    7,
+    3,
+    1,
+    1,
+    1,
+    2
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.7,
+    "water": 0.5,
+    "kust": 0.9,
+    "bos": 0.0
+   }
+  },
+  "Numenius arquata": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.6,
+    "water": 0.3,
+    "kust": 1.0,
+    "bos": 0.1
+   }
+  },
+  "Buteo buteo": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 1.0,
+    "water": 0.3,
+    "kust": 0.4,
+    "bos": 0.9
+   }
+  },
+  "Falco tinnunculus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 1.0,
+    "water": 0.3,
+    "kust": 0.6,
+    "bos": 0.2
+   }
+  },
+  "Accipiter nisus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.5,
+    "water": 0.1,
+    "kust": 0.3,
+    "bos": 0.8
+   }
+  },
+  "Phasianus colchicus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 1.0,
+    "water": 0.3,
+    "kust": 0.5,
+    "bos": 0.5
+   }
+  },
+  "Phylloscopus collybita": {
+   "months": [
+    0,
+    0,
+    3,
+    9,
+    10,
+    9,
+    8,
+    7,
+    5,
+    1,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.6,
+    "water": 0.4,
+    "kust": 0.6,
+    "bos": 1.0
+   }
+  },
+  "Phylloscopus trochilus": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.5,
+    "water": 0.4,
+    "kust": 0.7,
+    "bos": 0.9
+   }
+  },
+  "Sylvia atricapilla": {
+   "months": [
+    0,
+    0,
+    3,
+    9,
+    10,
+    9,
+    8,
+    7,
+    5,
+    1,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.8,
+    "platteland": 0.5,
+    "water": 0.3,
+    "kust": 0.5,
+    "bos": 1.0
+   }
+  },
+  "Hirundo rustica": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 1.0,
+    "water": 0.6,
+    "kust": 0.5,
+    "bos": 0.1
+   }
+  },
+  "Delichon urbicum": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.7,
+    "water": 0.4,
+    "kust": 0.4,
+    "bos": 0.0
+   }
+  },
+  "Apus apus": {
+   "months": [
+    1,
+    0,
+    0,
+    1,
+    7,
+    10,
+    10,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 1.0,
+    "platteland": 0.5,
+    "water": 0.4,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Turdus philomelos": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.5,
+    "water": 0.2,
+    "kust": 0.4,
+    "bos": 0.9
+   }
+  },
+  "Turdus iliacus": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.8,
+    "water": 0.2,
+    "kust": 0.4,
+    "bos": 0.7
+   }
+  },
+  "Turdus pilaris": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 1.0,
+    "water": 0.2,
+    "kust": 0.3,
+    "bos": 0.4
+   }
+  },
+  "Aegithalos caudatus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.4,
+    "water": 0.2,
+    "kust": 0.3,
+    "bos": 0.9
+   }
+  },
+  "Motacilla alba": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.8,
+    "water": 0.6,
+    "kust": 0.6,
+    "bos": 0.1
+   }
+  },
+  "Anthus pratensis": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.9,
+    "water": 0.4,
+    "kust": 0.9,
+    "bos": 0.0
+   }
+  },
+  "Alauda arvensis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 1.0,
+    "water": 0.1,
+    "kust": 0.6,
+    "bos": 0.1
+   }
+  },
+  "Emberiza schoeniclus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.5,
+    "water": 1.0,
+    "kust": 0.5,
+    "bos": 0.0
+   }
+  },
+  "Acrocephalus scirpaceus": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 1.0,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Acrocephalus schoenobaenus": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.3,
+    "water": 1.0,
+    "kust": 0.4,
+    "bos": 0.0
+   }
+  },
+  "Luscinia svecica": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.3,
+    "water": 0.9,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Platalea leucorodia": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.3,
+    "water": 0.8,
+    "kust": 0.9,
+    "bos": 0.0
+   }
+  },
+  "Ardea alba": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.8,
+    "water": 1.0,
+    "kust": 0.4,
+    "bos": 0.1
+   }
+  },
+  "Ciconia ciconia": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.9,
+    "water": 0.5,
+    "kust": 0.2,
+    "bos": 0.1
+   }
+  },
+  "Larus canus": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.6,
+    "water": 0.6,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Larus fuscus": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.7,
+    "platteland": 0.5,
+    "water": 0.6,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Larus marinus": {
+   "months": [
+    10,
+    9,
+    8,
+    5,
+    2,
+    1,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.1,
+    "water": 0.2,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Sterna hirundo": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.1,
+    "water": 0.8,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Calidris alba": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.0,
+    "water": 0.0,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Arenaria interpres": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.0,
+    "water": 0.0,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Branta bernicla": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.2,
+    "water": 0.1,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Somateria mollissima": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.0,
+    "water": 0.0,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Linaria cannabina": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.8,
+    "water": 0.2,
+    "kust": 0.9,
+    "bos": 0.2
+   }
+  },
+  "Emberiza citrinella": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.9,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 0.6
+   }
+  },
+  "Saxicola rubicola": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.7,
+    "water": 0.2,
+    "kust": 0.8,
+    "bos": 0.3
+   }
+  },
+  "Picus viridis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.5,
+    "water": 0.0,
+    "kust": 0.2,
+    "bos": 0.9
+   }
+  },
+  "Lophophanes cristatus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.0,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 1.0
+   }
+  },
+  "Regulus regulus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.2,
+    "water": 0.0,
+    "kust": 0.3,
+    "bos": 1.0
+   }
+  },
+  "Periparus ater": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.1,
+    "water": 0.0,
+    "kust": 0.1,
+    "bos": 1.0
+   }
+  },
+  "Alcedo atthis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 1.0,
+    "kust": 0.2,
+    "bos": 0.2
+   }
+  },
+  "Tachybaptus ruficollis": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.2,
+    "water": 0.9,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "Circus aeruginosus": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.6,
+    "water": 0.9,
+    "kust": 0.5,
+    "bos": 0.0
+   }
+  },
+  "Passer montanus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 1.0,
+    "water": 0.1,
+    "kust": 0.2,
+    "bos": 0.2
+   }
+  },
+  "Columba oenas": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.9,
+    "water": 0.1,
+    "kust": 0.3,
+    "bos": 0.6
+   }
+  },
+  "Corvus frugilegus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 1.0,
+    "water": 0.1,
+    "kust": 0.2,
+    "bos": 0.3
+   }
+  },
+  "Recurvirostra avosetta": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.2,
+    "water": 0.4,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Pluvialis apricaria": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 1.0,
+    "water": 0.1,
+    "kust": 0.5,
+    "bos": 0.0
+   }
+  },
+  "Spinus spinus": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.2,
+    "water": 0.1,
+    "kust": 0.2,
+    "bos": 1.0
+   }
+  },
+  "Fringilla montifringilla": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.6,
+    "water": 0.0,
+    "kust": 0.2,
+    "bos": 0.9
+   }
+  },
+  "Calidris alpina": {
+   "months": [
+    10,
+    9,
+    7,
+    3,
+    0,
+    0,
+    0,
+    0,
+    2,
+    7,
+    9,
+    10
+   ],
+   "habitat": {
+    "stad": 0.0,
+    "platteland": 0.0,
+    "water": 0.1,
+    "kust": 1.0,
+    "bos": 0.0
+   }
+  },
+  "Sylvia communis": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.9,
+    "water": 0.3,
+    "kust": 0.8,
+    "bos": 0.2
+   }
+  },
+  "Falco peregrinus": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.3,
+    "water": 0.3,
+    "kust": 0.5,
+    "bos": 0.1
+   }
+  },
+  "Phoenicurus ochruros": {
+   "months": [
+    0,
+    0,
+    1,
+    7,
+    10,
+    9,
+    8,
+    6,
+    3,
+    0,
+    0,
+    0
+   ],
+   "habitat": {
+    "stad": 0.9,
+    "platteland": 0.2,
+    "water": 0.1,
+    "kust": 0.4,
+    "bos": 0.0
+   }
+  },
+  "Poecile palustris": {
+   "months": [
+    8,
+    8,
+    9,
+    10,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.0,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 1.0
+   }
+  }
+ }
+}

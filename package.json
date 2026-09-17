@@ -1,0 +1,17 @@
+{
+  "name": "vogelbingo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Printable, location- and month-aware bird bingo cards for the Netherlands (vogelbingo.nl)",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "build:dataset": "node scripts/build-dataset.mjs",
+    "check:manifest": "node scripts/check-manifest.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "proj4": "^2.22.0"
+  }
+}

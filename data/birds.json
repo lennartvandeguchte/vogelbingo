@@ -1,0 +1,902 @@
+[
+ {
+  "scientificName": "Turdus merula",
+  "nameNl": "Merel",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Parus major",
+  "nameNl": "Koolmees",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Cyanistes caeruleus",
+  "nameNl": "Pimpelmees",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Columba palumbus",
+  "nameNl": "Houtduif",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Corvus monedula",
+  "nameNl": "Kauw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Corvus corone",
+  "nameNl": "Zwarte kraai",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Pica pica",
+  "nameNl": "Ekster",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Anas platyrhynchos",
+  "nameNl": "Wilde eend",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Fulica atra",
+  "nameNl": "Meerkoet",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Gallinula chloropus",
+  "nameNl": "Waterhoen",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Ardea cinerea",
+  "nameNl": "Blauwe reiger",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Cygnus olor",
+  "nameNl": "Knobbelzwaan",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Chroicocephalus ridibundus",
+  "nameNl": "Kokmeeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Larus argentatus",
+  "nameNl": "Zilvermeeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Erithacus rubecula",
+  "nameNl": "Roodborst",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Troglodytes troglodytes",
+  "nameNl": "Winterkoning",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Prunella modularis",
+  "nameNl": "Heggenmus",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Passer domesticus",
+  "nameNl": "Huismus",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Sturnus vulgaris",
+  "nameNl": "Spreeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Fringilla coelebs",
+  "nameNl": "Vink",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Chloris chloris",
+  "nameNl": "Groenling",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Carduelis carduelis",
+  "nameNl": "Putter",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Streptopelia decaocto",
+  "nameNl": "Turkse tortel",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Dendrocopos major",
+  "nameNl": "Grote bonte specht",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Sitta europaea",
+  "nameNl": "Boomklever",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Certhia brachydactyla",
+  "nameNl": "Boomkruiper",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Garrulus glandarius",
+  "nameNl": "Gaai",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Psittacula krameri",
+  "nameNl": "Halsbandparkiet",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Alopochen aegyptiaca",
+  "nameNl": "Nijlgans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Anser anser",
+  "nameNl": "Grauwe gans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Branta canadensis",
+  "nameNl": "Grote Canadese gans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Branta leucopsis",
+  "nameNl": "Brandgans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Anser albifrons",
+  "nameNl": "Kolgans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Phalacrocorax carbo",
+  "nameNl": "Aalscholver",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Podiceps cristatus",
+  "nameNl": "Fuut",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Aythya fuligula",
+  "nameNl": "Kuifeend",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Mareca strepera",
+  "nameNl": "Krakeend",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Mareca penelope",
+  "nameNl": "Smient",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Anas crecca",
+  "nameNl": "Wintertaling",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Spatula clypeata",
+  "nameNl": "Slobeend",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Tadorna tadorna",
+  "nameNl": "Bergeend",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Haematopus ostralegus",
+  "nameNl": "Scholekster",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Vanellus vanellus",
+  "nameNl": "Kievit",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Limosa limosa",
+  "nameNl": "Grutto",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Tringa totanus",
+  "nameNl": "Tureluur",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Numenius arquata",
+  "nameNl": "Wulp",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Buteo buteo",
+  "nameNl": "Buizerd",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Falco tinnunculus",
+  "nameNl": "Torenvalk",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Accipiter nisus",
+  "nameNl": "Sperwer",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Phasianus colchicus",
+  "nameNl": "Fazant",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Phylloscopus collybita",
+  "nameNl": "Tjiftjaf",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Phylloscopus trochilus",
+  "nameNl": "Fitis",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Sylvia atricapilla",
+  "nameNl": "Zwartkop",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Hirundo rustica",
+  "nameNl": "Boerenzwaluw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Delichon urbicum",
+  "nameNl": "Huiszwaluw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Apus apus",
+  "nameNl": "Gierzwaluw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Turdus philomelos",
+  "nameNl": "Zanglijster",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Turdus iliacus",
+  "nameNl": "Koperwiek",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Turdus pilaris",
+  "nameNl": "Kramsvogel",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Aegithalos caudatus",
+  "nameNl": "Staartmees",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Motacilla alba",
+  "nameNl": "Witte kwikstaart",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Anthus pratensis",
+  "nameNl": "Graspieper",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Alauda arvensis",
+  "nameNl": "Veldleeuwerik",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Emberiza schoeniclus",
+  "nameNl": "Rietgors",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Acrocephalus scirpaceus",
+  "nameNl": "Kleine karekiet",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Acrocephalus schoenobaenus",
+  "nameNl": "Rietzanger",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Luscinia svecica",
+  "nameNl": "Blauwborst",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Platalea leucorodia",
+  "nameNl": "Lepelaar",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Ardea alba",
+  "nameNl": "Grote zilverreiger",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Ciconia ciconia",
+  "nameNl": "Ooievaar",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Larus canus",
+  "nameNl": "Stormmeeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Larus fuscus",
+  "nameNl": "Kleine mantelmeeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Larus marinus",
+  "nameNl": "Grote mantelmeeuw",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Sterna hirundo",
+  "nameNl": "Visdief",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Calidris alba",
+  "nameNl": "Drieteenstrandloper",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Arenaria interpres",
+  "nameNl": "Steenloper",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Branta bernicla",
+  "nameNl": "Rotgans",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Somateria mollissima",
+  "nameNl": "Eider",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Linaria cannabina",
+  "nameNl": "Kneu",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Emberiza citrinella",
+  "nameNl": "Geelgors",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Saxicola rubicola",
+  "nameNl": "Roodborsttapuit",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Picus viridis",
+  "nameNl": "Groene specht",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Lophophanes cristatus",
+  "nameNl": "Kuifmees",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Regulus regulus",
+  "nameNl": "Goudhaan",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Periparus ater",
+  "nameNl": "Zwarte mees",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Alcedo atthis",
+  "nameNl": "IJsvogel",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Tachybaptus ruficollis",
+  "nameNl": "Dodaars",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Circus aeruginosus",
+  "nameNl": "Bruine kiekendief",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Passer montanus",
+  "nameNl": "Ringmus",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Columba oenas",
+  "nameNl": "Holenduif",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Corvus frugilegus",
+  "nameNl": "Roek",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Recurvirostra avosetta",
+  "nameNl": "Kluut",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Pluvialis apricaria",
+  "nameNl": "Goudplevier",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Spinus spinus",
+  "nameNl": "Sijs",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Fringilla montifringilla",
+  "nameNl": "Keep",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Calidris alpina",
+  "nameNl": "Bonte strandloper",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Sylvia communis",
+  "nameNl": "Grasmus",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Falco peregrinus",
+  "nameNl": "Slechtvalk",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Phoenicurus ochruros",
+  "nameNl": "Zwarte roodstaart",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ },
+ {
+  "scientificName": "Poecile palustris",
+  "nameNl": "Glanskop",
+  "speciesKey": null,
+  "image": null,
+  "source": null,
+  "credit": null,
+  "license": null
+ }
+]

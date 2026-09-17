@@ -175,13 +175,14 @@ stores at most the top 90 manifest species per (cell, month), as indexes into
 
 **Difficulty bands** (v1 rule, to be tuned by observation, not by argument). Let `P`
 be the pool size for the cell-month (24 ≤ P ≤ 90). Bands are thirds of the pool:
-`A = ranks 1..ceil(P/3)`, `B = next third`, `C = the rest`.
+`A = ranks 1..floor(P/3)`, `B = the next floor(P/3)`, `C = the rest` (so C is never
+the short one).
 
 | Tier | Composition |
 |---|---|
 | Makkelijk | 24 from ranks 1-24 |
-| Normaal | 16 from A ∪ B (top two thirds), 8 from B ∪ C (bottom two thirds), no overlap |
-| Expert | 8 from A, 8 from B, 8 from C |
+| Normaal | thirds of the top min(P, 48) ranks: 16 from A ∪ B, 8 from B ∪ C, no overlap. Never below rank 48. |
+| Expert | thirds of the whole pool: 8 from A, 8 from B, 8 from C |
 
 Because P ≥ 24 is guaranteed by the build guard, every third has at least 8 species
 and every tier is satisfiable by construction: no shrink rule, no fallback path. The
@@ -203,8 +204,9 @@ the free tier structurally cannot hand a group four different cards.
 **Paid pack.** `seed = fnv1a32("v1|" + cell + "|" + month + "|" + tier + "|" + packSeed + "|" + index)`.
 N cards, guaranteed-distinct arrangements, drawn from the same ranked pool so a
 sighting counts for every player. Distinctness is enforced, not assumed: if card `i`
-equals any earlier card (same species set *or* same layout), regenerate with
-`index + 1000 * attempt`. Plus a caller's sheet listing every bird across all cards.
+has the same layout as any earlier card, regenerate with `index + 1000 * attempt`.
+Species sets overlap by design (at P = 24 they are identical), so layout is the
+criterion. Plus a caller's sheet listing every bird across all cards.
 
 **Honest framing on the site.** The free card is complete for one player. Say that.
 Do not present it as a crippled demo.
@@ -387,7 +389,7 @@ string.
 | Adaptive radius | dense urban cell stays at ring 0; sparse rural cell widens; national fallback triggers and sets `confidence` 9 |
 | Card selection | always exactly 24 + free space; no duplicate species on one card; every bird has an image; `Math.random` is never called (stub it to throw) |
 | Determinism | same (cell, month, difficulty) → identical HTML, twice; a documented golden card for `1012` / mei / normaal pinned as a fixture and updated deliberately when the dataset or algorithm version changes |
-| Pack distinctness | N cards share a pool, no two identical in species set or layout, caller sheet is the exact union; the collision-retry path is exercised with a forced collision |
+| Pack distinctness | N cards share a pool, no two with the same layout, caller sheet is the exact union; the collision-retry path is exercised at P = 24 where every species set is identical |
 | Difficulty | each tier draws from its stated bands at P = 24, 45 and 90; P < 45 sets the convergence notice flag |
 | Manifest integrity | every entry has name, image file present on disk at the fixed size, licence recorded, no duplicate `speciesKey`, `image` path unique |
 | Build guard | a manifest with <24 usable species for an inhabited cell-month **fails the build**; `grid.json` over the size guard fails |

@@ -1,0 +1,33 @@
+{
+ "datasetVersion": "seed-2026-09",
+ "place": "Amsterdam",
+ "cell": 1812,
+ "seed": "v1|1812|5|normaal",
+ "names": [
+  "Spreeuw",
+  "Blauwe reiger",
+  "Waterhoen",
+  "Nijlgans",
+  "Kauw",
+  "Aalscholver",
+  "Winterkoning",
+  "Grauwe gans",
+  "Grote Canadese gans",
+  "Pimpelmees",
+  "Putter",
+  "Zwarte roodstaart",
+  null,
+  "Slechtvalk",
+  "Boomkruiper",
+  "Huiszwaluw",
+  "Heggenmus",
+  "IJsvogel",
+  "Turkse tortel",
+  "Meerkoet",
+  "Groenling",
+  "Halsbandparkiet",
+  "Fuut",
+  "Krakeend",
+  "Wilde eend"
+ ]
+}

@@ -1,0 +1,1185 @@
+{
+ "_provenance": "STOPGAP. One centroid per two-digit postcode area (PC2), coordinates of the main town from the GeoNames cities15000 list (CC BY 4.0) via the geonamescache package, with hand-set habitat weights. Replaced by the CBS PC4 table when scripts/build-dataset.mjs runs with --postcodes.",
+ "regions": {
+  "10": {
+   "place": "Amsterdam",
+   "lat": 52.37403,
+   "lon": 4.88969,
+   "habitat": {
+    "stad": 0.65,
+    "platteland": 0.05,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "11": {
+   "place": "Amstelveen",
+   "lat": 52.30083,
+   "lon": 4.86389,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.25,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "12": {
+   "place": "Hilversum",
+   "lat": 52.22333,
+   "lon": 5.17639,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.15,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.35
+   }
+  },
+  "13": {
+   "place": "Almere",
+   "lat": 52.37025,
+   "lon": 5.21413,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.2,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "14": {
+   "place": "Purmerend",
+   "lat": 52.505,
+   "lon": 4.95972,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.35,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "15": {
+   "place": "Zaandam",
+   "lat": 52.43854,
+   "lon": 4.82643,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.2,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "16": {
+   "place": "Hoorn",
+   "lat": 52.6425,
+   "lon": 5.05972,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "17": {
+   "place": "Den Helder",
+   "lat": 52.95988,
+   "lon": 4.75933,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.35,
+    "bos": 0.0
+   }
+  },
+  "18": {
+   "place": "Alkmaar",
+   "lat": 52.63167,
+   "lon": 4.74861,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.15,
+    "bos": 0.1
+   }
+  },
+  "19": {
+   "place": "Beverwijk",
+   "lat": 52.48333,
+   "lon": 4.65694,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.15,
+    "water": 0.1,
+    "kust": 0.3,
+    "bos": 0.1
+   }
+  },
+  "20": {
+   "place": "Haarlem",
+   "lat": 52.38084,
+   "lon": 4.63683,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.1,
+    "water": 0.1,
+    "kust": 0.25,
+    "bos": 0.1
+   }
+  },
+  "21": {
+   "place": "Lisse",
+   "lat": 52.26,
+   "lon": 4.55694,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.1,
+    "kust": 0.15,
+    "bos": 0.05
+   }
+  },
+  "22": {
+   "place": "Katwijk",
+   "lat": 52.20333,
+   "lon": 4.39861,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.15,
+    "water": 0.1,
+    "kust": 0.35,
+    "bos": 0.05
+   }
+  },
+  "23": {
+   "place": "Leiden",
+   "lat": 52.15833,
+   "lon": 4.49306,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.25,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "24": {
+   "place": "Alphen aan den Rijn",
+   "lat": 52.12917,
+   "lon": 4.65546,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.35,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "25": {
+   "place": "Den Haag",
+   "lat": 52.07667,
+   "lon": 4.29861,
+   "habitat": {
+    "stad": 0.55,
+    "platteland": 0.05,
+    "water": 0.1,
+    "kust": 0.25,
+    "bos": 0.05
+   }
+  },
+  "26": {
+   "place": "Delft",
+   "lat": 52.00667,
+   "lon": 4.35556,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.3,
+    "water": 0.15,
+    "kust": 0.1,
+    "bos": 0.0
+   }
+  },
+  "27": {
+   "place": "Zoetermeer",
+   "lat": 52.0575,
+   "lon": 4.49306,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.35,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "28": {
+   "place": "Gouda",
+   "lat": 52.01667,
+   "lon": 4.70833,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.35,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "29": {
+   "place": "Capelle aan den IJssel",
+   "lat": 51.92917,
+   "lon": 4.57778,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.2,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "30": {
+   "place": "Rotterdam",
+   "lat": 51.9225,
+   "lon": 4.47917,
+   "habitat": {
+    "stad": 0.65,
+    "platteland": 0.05,
+    "water": 0.25,
+    "kust": 0.05,
+    "bos": 0.0
+   }
+  },
+  "31": {
+   "place": "Schiedam",
+   "lat": 51.91917,
+   "lon": 4.38889,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.1,
+    "water": 0.3,
+    "kust": 0.15,
+    "bos": 0.0
+   }
+  },
+  "32": {
+   "place": "Spijkenisse",
+   "lat": 51.845,
+   "lon": 4.32917,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.25,
+    "kust": 0.15,
+    "bos": 0.0
+   }
+  },
+  "33": {
+   "place": "Dordrecht",
+   "lat": 51.81,
+   "lon": 4.67361,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.15,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "34": {
+   "place": "Nieuwegein",
+   "lat": 52.02917,
+   "lon": 5.08056,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.3,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "35": {
+   "place": "Utrecht",
+   "lat": 52.09083,
+   "lon": 5.12222,
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.1,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "36": {
+   "place": "Maarssen",
+   "lat": 52.13917,
+   "lon": 5.04167,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.3,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "37": {
+   "place": "Zeist",
+   "lat": 52.09,
+   "lon": 5.23333,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.2,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.4
+   }
+  },
+  "38": {
+   "place": "Amersfoort",
+   "lat": 52.155,
+   "lon": 5.3875,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.25,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "39": {
+   "place": "Veenendaal",
+   "lat": 52.02863,
+   "lon": 5.55891,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "40": {
+   "place": "Tiel",
+   "lat": 51.88667,
+   "lon": 5.42917,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "41": {
+   "place": "Culemborg",
+   "lat": 51.955,
+   "lon": 5.22778,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "42": {
+   "place": "Gorinchem",
+   "lat": 51.83652,
+   "lon": 4.97243,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "43": {
+   "place": "Middelburg",
+   "lat": 51.5,
+   "lon": 3.61389,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.25,
+    "water": 0.1,
+    "kust": 0.35,
+    "bos": 0.0
+   }
+  },
+  "44": {
+   "place": "Goes",
+   "lat": 51.50417,
+   "lon": 3.88889,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.35,
+    "water": 0.1,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "45": {
+   "place": "Terneuzen",
+   "lat": 51.33583,
+   "lon": 3.82778,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.4,
+    "water": 0.1,
+    "kust": 0.25,
+    "bos": 0.0
+   }
+  },
+  "46": {
+   "place": "Bergen op Zoom",
+   "lat": 51.495,
+   "lon": 4.29167,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.15,
+    "bos": 0.1
+   }
+  },
+  "47": {
+   "place": "Roosendaal",
+   "lat": 51.53083,
+   "lon": 4.46528,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.4,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "48": {
+   "place": "Breda",
+   "lat": 51.58656,
+   "lon": 4.77596,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.25,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "49": {
+   "place": "Oosterhout",
+   "lat": 51.645,
+   "lon": 4.85972,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "50": {
+   "place": "Tilburg",
+   "lat": 51.55551,
+   "lon": 5.0913,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "51": {
+   "place": "Waalwijk",
+   "lat": 51.6825,
+   "lon": 5.07083,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "52": {
+   "place": "'s-Hertogenbosch",
+   "lat": 51.69917,
+   "lon": 5.30417,
+   "habitat": {
+    "stad": 0.45,
+    "platteland": 0.25,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "53": {
+   "place": "Oss",
+   "lat": 51.765,
+   "lon": 5.51806,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.4,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "54": {
+   "place": "Uden",
+   "lat": 51.66083,
+   "lon": 5.61944,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.45,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "55": {
+   "place": "Eersel",
+   "lat": 51.3575,
+   "lon": 5.31806,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.3,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.4
+   }
+  },
+  "56": {
+   "place": "Eindhoven",
+   "lat": 51.44083,
+   "lon": 5.47778,
+   "habitat": {
+    "stad": 0.6,
+    "platteland": 0.1,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "57": {
+   "place": "Helmond",
+   "lat": 51.48167,
+   "lon": 5.66111,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.3,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "58": {
+   "place": "Venray",
+   "lat": 51.525,
+   "lon": 5.975,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "59": {
+   "place": "Venlo",
+   "lat": 51.37,
+   "lon": 6.16806,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.3,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "60": {
+   "place": "Weert",
+   "lat": 51.25167,
+   "lon": 5.70694,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "61": {
+   "place": "Sittard",
+   "lat": 50.99833,
+   "lon": 5.86944,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.35,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "62": {
+   "place": "Maastricht",
+   "lat": 50.84833,
+   "lon": 5.68889,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "63": {
+   "place": "Valkenburg",
+   "lat": 50.865,
+   "lon": 5.832,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "64": {
+   "place": "Heerlen",
+   "lat": 50.88365,
+   "lon": 5.98154,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "65": {
+   "place": "Nijmegen",
+   "lat": 51.8425,
+   "lon": 5.85278,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.15,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "66": {
+   "place": "Wijchen",
+   "lat": 51.80917,
+   "lon": 5.725,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "67": {
+   "place": "Ede",
+   "lat": 52.03333,
+   "lon": 5.65833,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.25,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 0.45
+   }
+  },
+  "68": {
+   "place": "Arnhem",
+   "lat": 51.98,
+   "lon": 5.91111,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.1,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "69": {
+   "place": "Zevenaar",
+   "lat": 51.93,
+   "lon": 6.07083,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "70": {
+   "place": "Doetinchem",
+   "lat": 51.965,
+   "lon": 6.28889,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.45,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "71": {
+   "place": "Winterswijk",
+   "lat": 51.9725,
+   "lon": 6.71944,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.5,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "72": {
+   "place": "Zutphen",
+   "lat": 52.13833,
+   "lon": 6.20139,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.35,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "73": {
+   "place": "Apeldoorn",
+   "lat": 52.21,
+   "lon": 5.96944,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.15,
+    "water": 0.0,
+    "kust": 0.0,
+    "bos": 0.45
+   }
+  },
+  "74": {
+   "place": "Deventer",
+   "lat": 52.255,
+   "lon": 6.16389,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.35,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "75": {
+   "place": "Enschede",
+   "lat": 52.21833,
+   "lon": 6.89583,
+   "habitat": {
+    "stad": 0.5,
+    "platteland": 0.2,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "76": {
+   "place": "Almelo",
+   "lat": 52.35667,
+   "lon": 6.6625,
+   "habitat": {
+    "stad": 0.35,
+    "platteland": 0.4,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "77": {
+   "place": "Hardenberg",
+   "lat": 52.57583,
+   "lon": 6.61944,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.5,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "78": {
+   "place": "Emmen",
+   "lat": 52.77917,
+   "lon": 6.90694,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.25
+   }
+  },
+  "79": {
+   "place": "Hoogeveen",
+   "lat": 52.7225,
+   "lon": 6.47639,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "80": {
+   "place": "Zwolle",
+   "lat": 52.5125,
+   "lon": 6.09444,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.25,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "81": {
+   "place": "Raalte",
+   "lat": 52.38583,
+   "lon": 6.275,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.5,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "82": {
+   "place": "Lelystad",
+   "lat": 52.50833,
+   "lon": 5.475,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.35,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "83": {
+   "place": "Emmeloord",
+   "lat": 52.71083,
+   "lon": 5.74861,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.5,
+    "water": 0.3,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "84": {
+   "place": "Heerenveen",
+   "lat": 52.95929,
+   "lon": 5.91854,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "85": {
+   "place": "Joure",
+   "lat": 52.965,
+   "lon": 5.8,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.4,
+    "water": 0.4,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "86": {
+   "place": "Sneek",
+   "lat": 53.03297,
+   "lon": 5.6589,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.35,
+    "water": 0.4,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "87": {
+   "place": "Bolsward",
+   "lat": 53.065,
+   "lon": 5.526,
+   "habitat": {
+    "stad": 0.15,
+    "platteland": 0.45,
+    "water": 0.2,
+    "kust": 0.2,
+    "bos": 0.0
+   }
+  },
+  "88": {
+   "place": "Harlingen",
+   "lat": 53.17477,
+   "lon": 5.42244,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.4,
+    "bos": 0.0
+   }
+  },
+  "89": {
+   "place": "Leeuwarden",
+   "lat": 53.20271,
+   "lon": 5.80973,
+   "habitat": {
+    "stad": 0.4,
+    "platteland": 0.35,
+    "water": 0.25,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "90": {
+   "place": "Grou",
+   "lat": 53.094,
+   "lon": 5.836,
+   "habitat": {
+    "stad": 0.15,
+    "platteland": 0.45,
+    "water": 0.4,
+    "kust": 0.0,
+    "bos": 0.0
+   }
+  },
+  "91": {
+   "place": "Dokkum",
+   "lat": 53.325,
+   "lon": 5.999,
+   "habitat": {
+    "stad": 0.15,
+    "platteland": 0.4,
+    "water": 0.15,
+    "kust": 0.3,
+    "bos": 0.0
+   }
+  },
+  "92": {
+   "place": "Drachten",
+   "lat": 53.11254,
+   "lon": 6.0989,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.4,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "93": {
+   "place": "Leek",
+   "lat": 53.1625,
+   "lon": 6.37639,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.5,
+    "water": 0.15,
+    "kust": 0.0,
+    "bos": 0.15
+   }
+  },
+  "94": {
+   "place": "Assen",
+   "lat": 52.99667,
+   "lon": 6.5625,
+   "habitat": {
+    "stad": 0.3,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.3
+   }
+  },
+  "95": {
+   "place": "Stadskanaal",
+   "lat": 52.98947,
+   "lon": 6.9504,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.5,
+    "water": 0.05,
+    "kust": 0.0,
+    "bos": 0.2
+   }
+  },
+  "96": {
+   "place": "Veendam",
+   "lat": 53.10667,
+   "lon": 6.87917,
+   "habitat": {
+    "stad": 0.25,
+    "platteland": 0.55,
+    "water": 0.1,
+    "kust": 0.0,
+    "bos": 0.1
+   }
+  },
+  "97": {
+   "place": "Groningen",
+   "lat": 53.21917,
+   "lon": 6.56667,
+   "habitat": {
+    "stad": 0.55,
+    "platteland": 0.2,
+    "water": 0.2,
+    "kust": 0.0,
+    "bos": 0.05
+   }
+  },
+  "98": {
+   "place": "Zuidhorn",
+   "lat": 53.248,
+   "lon": 6.404,
+   "habitat": {
+    "stad": 0.15,
+    "platteland": 0.55,
+    "water": 0.2,
+    "kust": 0.1,
+    "bos": 0.0
+   }
+  },
+  "99": {
+   "place": "Appingedam",
+   "lat": 53.321,
+   "lon": 6.858,
+   "habitat": {
+    "stad": 0.2,
+    "platteland": 0.45,
+    "water": 0.1,
+    "kust": 0.25,
+    "bos": 0.0
+   }
+  }
+ },
+ "overrides": [
+  {
+   "from": "1790",
+   "to": "1797",
+   "place": "Texel",
+   "lat": 53.054,
+   "lon": 4.797,
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.5,
+    "bos": 0
+   }
+  },
+  {
+   "from": "8881",
+   "to": "8897",
+   "place": "Terschelling",
+   "lat": 53.361,
+   "lon": 5.214,
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.25,
+    "water": 0.1,
+    "kust": 0.6,
+    "bos": 0
+   }
+  },
+  {
+   "from": "8899",
+   "to": "8899",
+   "place": "Vlieland",
+   "lat": 53.296,
+   "lon": 5.072,
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.1,
+    "water": 0.05,
+    "kust": 0.8,
+    "bos": 0
+   }
+  },
+  {
+   "from": "9161",
+   "to": "9164",
+   "place": "Ameland",
+   "lat": 53.446,
+   "lon": 5.769,
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.3,
+    "water": 0.1,
+    "kust": 0.55,
+    "bos": 0
+   }
+  },
+  {
+   "from": "9166",
+   "to": "9166",
+   "place": "Schiermonnikoog",
+   "lat": 53.48,
+   "lon": 6.16,
+   "habitat": {
+    "stad": 0.05,
+    "platteland": 0.2,
+    "water": 0.1,
+    "kust": 0.65,
+    "bos": 0
+   }
+  },
+  {
+   "from": "1156",
+   "to": "1156",
+   "place": "Marken",
+   "lat": 52.458,
+   "lon": 5.103,
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.2,
+    "water": 0.7,
+    "kust": 0,
+    "bos": 0
+   }
+  },
+  {
+   "from": "4251",
+   "to": "4251",
+   "place": "Werkendam (Biesbosch)",
+   "lat": 51.81,
+   "lon": 4.893,
+   "habitat": {
+    "stad": 0.1,
+    "platteland": 0.2,
+    "water": 0.6,
+    "kust": 0,
+    "bos": 0.1
+   }
+  }
+ ]
+}
