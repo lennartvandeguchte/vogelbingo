@@ -4,7 +4,7 @@
 //   node scripts/build-dataset.mjs                              # seed mode (stopgap data)
 //   node scripts/build-dataset.mjs --request-download           # ask GBIF for the export (needs GBIF_USER/GBIF_PASSWORD)
 //   node scripts/build-dataset.mjs --source gbif-csv occurrence.csv --doi 10.15468/dl.xxxxx \
-//                                  --postcodes cbs_pc4.geojson
+//                                  --postcodes cbs_pc4_2023_v1.gpkg   (.gpkg or .geojson; --no-places skips the name lookup)
 //
 // The browser never runs any of this.
 import fs from 'node:fs';
@@ -13,6 +13,7 @@ import readline from 'node:readline';
 import { fileURLToPath } from 'node:url';
 import { cellId, CELL_SIZE, ORIGIN } from './lib/rd.mjs';
 import { buildGrid, MIN_RECORDS, MAX_RING } from './lib/aggregate.mjs';
+import { buildPostcodeTable } from './lib/postcodes.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE = path.join(ROOT, '.cache');
@@ -38,7 +39,14 @@ if (args['request-download']) {
 const birds = readJson('data/birds.json');
 const speciesIndex = new Map(birds.map((b, i) => [b.scientificName, i]));
 
-const postcodes = args.postcodes ? await postcodesFromCbs(args.postcodes) : postcodesFromSeed();
+const postcodes = args.postcodes
+  ? await buildPostcodeTable(args.postcodes, {
+      places: !args['no-places'],
+      cacheFile: path.join(CACHE, 'places.json'),
+      log,
+      warn,
+    })
+  : postcodesFromSeed();
 const inhabited = new Set(Object.values(postcodes).filter((v) => v.cell !== undefined).map((v) => v.cell));
 log(`postcodes: ${Object.keys(postcodes).filter((k) => !k.startsWith('_')).length} entries, ${inhabited.size} inhabited cells`);
 
@@ -135,33 +143,6 @@ function postcodesFromSeed() {
     for (let p = Number(o.from); p <= Number(o.to); p++) table[String(p)] = { cell, place: o.place };
   }
   return table;
-}
-
-/** CBS PC4 GeoJSON (PDOK): one polygon per PC4, property `postcode`. */
-async function postcodesFromCbs(file) {
-  const gj = JSON.parse(fs.readFileSync(file, 'utf8'));
-  const table = { _provenance: 'CBS Wijk- en buurtkaart, postcode-4 areas (CC BY 4.0), centroid per PC4' };
-  for (const f of gj.features) {
-    const p = f.properties;
-    const pc4 = String(p.postcode ?? p.PC4 ?? p.pc4);
-    if (!/^[1-9][0-9]{3}$/.test(pc4)) continue;
-    const [lon, lat] = centroid(f.geometry);
-    const cell = cellId(lon, lat);
-    if (cell === null) {
-      warn(`PC4 ${pc4} falls outside the grid`);
-      continue;
-    }
-    table[pc4] = { cell, place: p.gemeentenaam ?? p.GM_NAAM ?? p.plaats ?? pc4 };
-  }
-  return table;
-}
-
-function centroid(geometry) {
-  const pts = [];
-  const walk = (c) => (typeof c[0] === 'number' ? pts.push(c) : c.forEach(walk));
-  walk(geometry.coordinates);
-  const n = pts.length;
-  return [pts.reduce((s, p) => s + p[0], 0) / n, pts.reduce((s, p) => s + p[1], 0) / n];
 }
 
 /** Stream a GBIF SIMPLE_CSV export (tab separated) into per-cell counts. */

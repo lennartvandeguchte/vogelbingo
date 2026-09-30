@@ -39,9 +39,14 @@ Deep links work: `/?postcode=1012&maand=5&niveau=normaal`.
 2. `node scripts/build-dataset.mjs --request-download` requests the occurrence download
    (Netherlands, Aves, CC0/CC BY, human observations with coordinates), polls until it is
    ready and saves the zip under `.cache/`. It prints the DOI and the next command.
-3. Download the CBS PC4 areas as GeoJSON from PDOK ("CBS Wijk- en buurtkaart",
-   postcode-4 layer).
-4. `unzip .cache/<key>.zip -d .cache && node scripts/build-dataset.mjs --source gbif-csv .cache/<key>.csv --doi <doi> --postcodes cbs_pc4.geojson`
+3. Download the PC4 areas from PDOK: dataset **CBS Postcode statistieken** (not
+   "Wijken en Buurten", which has no postcode areas), the postcode-4 GeoPackage for the
+   most recent year, e.g. `cbs_pc4_2023_v1.gpkg`. Keep it out of git. A GeoJSON export
+   works too. Coordinates may be RD (EPSG:28992) or WGS84; both are detected.
+4. `unzip .cache/<key>.zip -d .cache && node scripts/build-dataset.mjs --source gbif-csv .cache/<key>.csv --doi <doi> --postcodes cbs_pc4_2023_v1.gpkg`
+   The PC4 dataset carries no place names, so the build asks the PDOK Locatieserver for
+   the woonplaats of each of the ~4,100 postcodes once and caches the answers in
+   `.cache/places.json`. Pass `--no-places` to skip that (cards then show the postcode).
 5. Commit `data/grid.json`, `data/postcodes.json` and `ATTRIBUTION.md` together.
 
 The build streams the CSV (it can be several GB), applies the adaptive radius, refuses to
