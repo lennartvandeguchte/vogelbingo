@@ -47,7 +47,10 @@ Deep links work: `/?postcode=1012&maand=5&niveau=normaal`.
    The PC4 dataset carries no place names, so the build asks the PDOK Locatieserver for
    the woonplaats of each of the ~4,100 postcodes once and caches the answers in
    `.cache/places.json`. Pass `--no-places` to skip that (cards then show the postcode).
-5. Commit `data/grid.json`, `data/postcodes.json` and `ATTRIBUTION.md` together.
+5. `npm run golden` refreshes the pinned golden card (it is tied to the dataset), then
+   `npm test`.
+6. Commit `data/grid.json`, `data/postcodes.json`, `ATTRIBUTION.md` and the golden fixture
+   together.
 
 The build streams the CSV (it can be several GB), applies the adaptive radius, refuses to
 write a grid in which any inhabited cell-month has fewer than 24 species, and refuses a
