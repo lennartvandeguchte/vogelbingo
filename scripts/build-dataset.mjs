@@ -23,6 +23,13 @@ const SEED_PRESENCE_CUTOFF = 0.06; // seed mode only: a species under 6% of the 
 
 const args = parseArgs(process.argv.slice(2));
 
+// Load .env (gitignored) if present; shell variables win over the file.
+try {
+  process.loadEnvFile(path.join(ROOT, '.env'));
+} catch (err) {
+  if (err.code !== 'ENOENT') throw err;
+}
+
 if (args['request-download']) {
   await requestDownload();
   process.exit(0);

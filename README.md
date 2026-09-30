@@ -33,8 +33,9 @@ Deep links work: `/?postcode=1012&maand=5&niveau=normaal`.
 
 ## Rebuilding the dataset
 
-1. Create a free account at gbif.org and export `GBIF_USER` and `GBIF_PASSWORD` in your
-   shell (never commit them; `.env` is ignored).
+1. Create a free account at gbif.org, copy `.env.example` to `.env` and fill in
+   `GBIF_USER` and `GBIF_PASSWORD`. The build script loads `.env` itself; `.env` is
+   gitignored, so the credentials never reach the repo. Shell variables override the file.
 2. `node scripts/build-dataset.mjs --request-download` requests the occurrence download
    (Netherlands, Aves, CC0/CC BY, human observations with coordinates), polls until it is
    ready and saves the zip under `.cache/`. It prints the DOI and the next command.
