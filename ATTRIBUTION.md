@@ -19,5 +19,5 @@ via het `geonamescache`-pakket. Beoogd: CBS Wijk- en buurtkaart, postcode-4-gebi
 <!-- generated:start -->
 _Gegenereerd op 2026-09-30 door scripts/build-dataset.mjs._
 
-Dataset `seed-2026-09`: **voorlopige, door experts geschatte** maandelijkse soortenlijsten (`data/seed/species.json`), geen waarnemingen. Wordt vervangen door een GBIF occurrence download zodra `scripts/build-dataset.mjs --source gbif-csv` is gedraaid.
+Waarnemingen: GBIF.org occurrence download https://doi.org/10.15468/dl.y5d2tq (CC BY 4.0 en CC0 datasets). De volledige lijst van bronnen staat in de download-metadata op GBIF onder die DOI.
 <!-- generated:end -->
